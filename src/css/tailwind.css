@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.card {
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:translate-y-4 hover:shadow-xl
+}
+
+.card--cover {
+    @apply w-full h-3/5 rounded-t-lg bg-cover
+}
+
+.cardTitle {
+    @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white
+}
+
+.card_description {
+    @apply text-sm pl-8 mr-12 text-white
+}
+
+.container-logo{ 
+    @apply font-Montserrat h-2 text-2xl flex items-center text-black
+}
